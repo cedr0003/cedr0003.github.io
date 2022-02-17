@@ -2,3 +2,19 @@ body{
     font-family: Arial;
     font-size: 18px;
 }
+header,footer {
+    background-color: darkorange;
+}
+.site-title {
+    color: red;
+}
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+  }
+  ul{
+      list-style-type: square;
+  }
+  
+  ul:nth-child(odd){
+    background-color:lime;
+   }
